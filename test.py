@@ -1,5 +1,10 @@
-def inc(x):
-  return x + 1
+from flask import Flask
 
-def test_answer():
-  assert inc(4) == 5
+app = Flask(__name__)
+
+@app.route('/')
+def tester():
+  return "<h1> hellow wolrd</h1>"
+
+if __name__ == "__main__":
+  app.run()
