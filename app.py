@@ -24,7 +24,7 @@ db.create_all()
 
 @app.route('/')
 def tester():
-  return "<h1> Hello world!</h1>"
+  return "<h1> Hello world!</h1>"+str(Info.query.all()))
 
 if __name__ == "__main__":
   app.run()
