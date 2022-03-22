@@ -1,5 +1,5 @@
 def speak():
-    x = x+2
+    x = 2
     print(x)
     return "hello"
 
