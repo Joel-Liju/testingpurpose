@@ -7,3 +7,6 @@ def speak():
 def what():
     matches = "what"
     return matches
+
+def thing():
+    return "do the roar"
