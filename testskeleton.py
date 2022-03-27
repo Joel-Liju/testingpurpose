@@ -4,3 +4,6 @@ def testingspeak():
 
 def testingwhat():
     assert testingapp.what() == "what"
+    
+def testingmore():
+    assert testingapp.more() == "more"
