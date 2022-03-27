@@ -7,3 +7,5 @@ def speak():
 def what():
     matches = "what"
     return matches
+def more():
+    return "more"
