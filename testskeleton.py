@@ -1,6 +1,9 @@
-import testingpp
+import testingapp
 def testingspeak():
-    assert testingpp.speak() == "hello"
+    assert testingapp.speak() == "hello"
 
 def testingwhat():
     assert testingapp.what() == "what"
+    
+def testingmore():
+    assert testingapp.more() == "more"
