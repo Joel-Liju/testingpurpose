@@ -1,16 +1,1 @@
-name: editing file
 
-on:
-  schedule:
-    - cron: '*/5 * * * *'
-
-jobs:
-  test_schedule:
-    runs-on: ubuntu-latest
-    
-    steps:
-      - uses: actions/checkout@v2
-      - name:
-        run: echo "this is something"
-      - name: readmeupdate
-        run: echo "hi there" >> README.md
