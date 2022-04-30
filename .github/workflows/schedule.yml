@@ -1,1 +1,14 @@
+name: testing-schedule
 
+on:
+  schedule:
+    - cron: '*/2 * * * *'
+
+jobs:
+  testingthings:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: run_this
+        run: echo "jaela" >> README.md
