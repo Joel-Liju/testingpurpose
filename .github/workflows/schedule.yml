@@ -1,0 +1,12 @@
+name: editing file
+
+on:
+  schedule:
+    - cron: '5 * * * *'
+
+jobs:
+  test_schedule:
+    runs-on: ubuntu-latest
+    steps:
+      - name: everytime
+        run: echo "this is something"
