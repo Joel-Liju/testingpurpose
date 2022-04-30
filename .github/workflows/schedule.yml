@@ -2,7 +2,7 @@ name: editing file
 
 on:
   schedule:
-    - cron: '5 * * * *'
+    - cron: '*/5 * * * *'
 
 jobs:
   test_schedule:
