@@ -7,8 +7,9 @@ on:
 jobs:
   test_schedule:
     runs-on: ubuntu-latest
-    uses: actions/checkout@v2
+    
     steps:
+      - uses: actions/checkout@v2
       - name:
         run: echo "this is something"
       - name: readmeupdate
